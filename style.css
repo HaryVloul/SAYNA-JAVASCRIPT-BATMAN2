@@ -1,0 +1,392 @@
+@font-face {
+    font-family: "Radjhani";
+    src: url("fonts/Rajdhani-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+}
+
+@media only screen and (min-width: 1515px) {
+    .batman {
+      display: none;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 6.7%;
+    }
+  }
+
+body{
+    background-image: url("Assets/Illustrations_home/Bathome1.png") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 86%;
+    margin: auto;
+    background-color:#000000;
+    color: whitesmoke;
+    font-family: "Space Grotesk";
+    border-left: 3px solid #bcbbbd3f;
+    border-right: 3px solid #bcbbbd3f;
+
+    
+}
+  
+.elements{
+    left: -100%;
+    height: 100%; 
+    animation: fade-in 2s ease-in-out forwards;
+}
+
+hr{
+    margin-top: 2.5%;
+    height: 5px;
+    background-color: #bcbbbd3f;
+    border: none;
+}
+
+#logo{
+    display:inline-block;
+    margin-top: 4%;
+    margin-left: 11%;
+    vertical-align: auto;
+}
+
+.JusticeLeague{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#home{
+    position: absolute;
+    top: 4%;
+    right:32%;
+    font-family: "Radjhani";
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: 1.5px solid whitesmoke;
+}
+
+#game{
+    position: absolute;
+    top: 4%;
+    right:15%;
+    font-family: "Radjhani";
+    font-size: 36px;
+}
+
+#game:hover{
+    color: whitesmoke;
+    font-weight: bold;
+    border-bottom: 1.5px solid whitesmoke;
+}
+
+#logo:hover{
+    border-bottom: 3px solid #FFFF00;
+}
+
+.logo{
+    margin: auto;
+    margin-right: 3%;
+}
+
+.logo:hover{
+    border-bottom: 3px solid #FFFF00;
+}
+
+#introduction{
+    width: 47.4%;
+    margin: auto;
+    margin-top: 22.5%;
+    font-size:19.5px;
+    text-align: center;
+    display: block;
+}
+
+.navigation{
+    position:fixed;
+    display: block;
+    right: 2.95%;
+    top: 54%;
+}
+
+.navigation img{
+    display: block;
+    margin: auto;
+    margin-bottom: 18%;
+}
+
+button{
+    margin-top: 3%;
+    padding: 4%;
+    margin: 6.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Radjhani";
+    font-size: 20px;
+    color: whitesmoke;
+    background: linear-gradient(to right, gray, #B11313);
+    opacity: 50%;
+}
+
+button:hover{
+    opacity: 100%;
+}
+
+.fleche{
+    display: block;
+    margin: auto;
+    margin-top: 240px;
+    margin-bottom: 60px;
+}
+
+main{
+    margin-left: 8%;
+}
+
+#hero p, #nemesis p, #allies p, #league p{
+    width: 82%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#allies{
+    margin-top: 100px;
+}
+
+.weapon{
+    margin-left: 0px;
+    width: 150px;
+}
+
+.illustration{
+    display: inline-block;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.illustration:hover{
+    transform: scale(1.1);
+}
+
+.gauche{
+    margin-top: 8%;
+    height: 70px;
+}
+
+.poster{
+    height: 240px;   
+    margin-left: 14%; 
+}
+
+.multimedia{
+    width: 100%;
+    display:flex;
+    margin: auto;
+    margin-bottom: 4% ;
+    /* height: 59%; */
+}
+
+.attach{
+    width: 50%;
+    margin: auto;    
+}
+
+.type{
+    font-family: "Radjani";
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.title{
+    font-family: "Space Grotesk";
+    font-size: 15px;
+}
+
+.rating{
+    color:#FFFF00 ;
+}
+
+.multimedia p{
+    background-color: #19587d;
+    opacity: 80%;
+    border-radius: 0px 15px 15px 0px;
+    padding: 20px;
+    margin-right: 15%;
+    width: 32%;
+    font-size: 11.5px;
+}
+
+.droite{
+    margin-top: 8%;
+    height: 70px;
+}
+
+.batman{
+    height: 272px;
+    width: 440px;
+    position:absolute;
+    right: 0%;
+    top: 405%;
+}
+
+h2 img{
+    width: 120px;
+    left: 0px;
+}
+
+video{
+    width: 91%;
+    margin: auto;
+}
+
+.contacts{
+    padding: 10px;
+    background-color: #2F4F4F;
+    opacity: 80%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    padding-left: 10%;
+}
+
+.contacts h2{
+    margin-left: 25%;
+}
+
+#mail{
+    width: 75%;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    background-color: #2F4F4F;
+    border-bottom: solid 2px whitesmoke;
+}
+
+#frequence{
+    width: 75%;
+    color: whitesmoke;
+    border: none;
+    background-color: #2F4F4F;
+    border-bottom: solid 2px whitesmoke;
+}
+
+.confirmation{
+    width: 180px;
+    color: whitesmoke;
+    background-color: #c76363;
+    opacity: 50%;
+    margin: 2% 2% 4% 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: "Radjhani";
+    font-size: 20px;
+    color: whitesmoke;
+    background: linear-gradient(to right, gray, #B11313);
+    opacity: 50%;
+}
+
+textarea{
+    width: 75%;
+    background-color: #2F4F4F;
+    border: none;
+    color: white;
+    border-bottom: solid 2px whitesmoke;
+}
+
+.confirmation:hover{
+    opacity: 90%;
+}
+
+.overlay{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.parent{
+    margin: 5% auto;
+    width: 50%;
+    height: 70%;
+    background: linear-gradient(to right, #685734, #114563);
+    border-radius: 5%;
+    padding-top: 5%;
+}
+
+.popUp{
+    padding-top: 2%;
+    margin: 10% auto;
+    margin-top: 7%;
+    width: 60%;
+    height: 60%;
+    background: linear-gradient(to right, #eddebf, #19587d);
+    border-radius: 5%;
+}
+
+.popUp h2{
+    text-transform: uppercase;
+    width: 80%;
+    padding: 18% 20% 25% 0%;
+    font-size: xx-large;
+}
+
+a{
+    color: whitesmoke;
+    font-family: "Radjhani";
+    text-decoration: none;
+}
+
+h2{
+    font-family: "Radjhani";
+    font-size: 36px;
+}
+
+h4{
+    font-family: "Space Grotesk";
+    font-size: large;
+}
+
+.guillemets_ouvrantes{
+    margin-left: 200px;
+}
+
+.guillemets_fermantes{
+    display: block;
+    margin:auto;
+    margin-right: 250px;
+}
+
+.citation{
+    width: 420px;
+    margin: auto;
+    text-align: center;
+}
+
+.author{
+    display: block;
+    font-family: "Radjhani";
+    font-size: small;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+}
+
+footer{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer p{
+    font-size: x-small;
+}

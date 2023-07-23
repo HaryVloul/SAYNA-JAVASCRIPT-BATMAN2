@@ -1,0 +1,239 @@
+@font-face {
+    font-family: "Radjhani";
+    src: url("fonts/Rajdhani-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+}
+
+@keyframes fade-in {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 6.7%;
+    }
+  }
+
+body{
+    background-image: url("Assets/Illustrations_game/Batgame_1.png") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 86%;
+    margin: auto;
+    background-color:#000000;
+    color: whitesmoke;
+    font-family: "Space Grotesk";
+    border-left: 3px solid #bcbbbd3f;
+    border-right: 3px solid #bcbbbd3f;
+    /* position: absolute; */
+    top: 0;
+    left: -100%;
+    height: 100%;
+    animation: fade-in 2s ease-in-out forwards;
+}
+
+hr{
+    margin-top: 2.5%;
+    height: 5px;
+    background-color: #bcbbbd3f;
+    border: none;
+}
+
+#logo{
+    display:inline-block;
+    margin-top: 4%;
+    margin-left: 11%;
+    vertical-align: auto;
+}
+
+#home{
+    position: absolute;
+    top: 4%;
+    right:32%;
+    font-family: "Radjhani";
+    font-size: 36px;
+    
+}
+
+#game{
+    margin-left: 4%;
+    position: absolute;
+    top: 4%;
+    right:15%;
+    font-family: "Radjhani";
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: 1.5px solid whitesmoke;
+    
+}
+
+#home:hover{
+    color: whitesmoke;
+    font-weight: bold;
+    border-bottom: 1.5px solid whitesmoke;
+}
+
+#logo:hover{
+    border-bottom: 3px solid #FFFF00;
+}
+
+.logo{
+    margin: auto;
+    margin-right: 3%;
+}
+
+.logo:hover{
+    border-bottom: 3px solid #FFFF00;
+}
+
+#introduction{
+    width: 30%;
+    margin-left: 7%;
+    margin-top: 16%;
+    font-family: "Radjhani";
+    font-weight: bold;
+    font-size:33px;
+    display: block;
+    text-align: left;
+    letter-spacing: 1.5px;
+}
+
+.navigation{
+    position:fixed;
+    display: block;
+    right: 2.95%;
+    top: 54%;
+}
+
+.navigation img{
+    display: block;
+    margin: auto;
+    margin-bottom: 18%;
+}
+
+.fleche{
+    display: block;
+    margin: auto;
+    margin-top: 39%;
+    margin-bottom: 60px;
+}
+
+.starting{
+    width: 80%;
+    margin: auto;
+    margin-top: 11%;
+}
+
+.starting h1{
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 5.7vh;
+    font-family: "Radjhani";
+}
+
+.starting h2{
+    font-family: "Space Grotesk";
+    font-weight: normal;
+}
+
+.starting img{
+    width: 100%;
+}
+
+.start, .nextQuestion{
+    width: 40%;
+    margin: 10% 30% 12% 30%;
+    padding: 2% 0% 2% 0%;
+    font-family: "Radjhani";
+    font-size: 23px;
+    color: whitesmoke;
+    background: linear-gradient(to right, rgba(206, 206, 206, 0.973), rgba(236, 134, 38, 0.829));
+    opacity: 50%;
+    /* text-align: center; */
+    /* align-self: center; */
+    letter-spacing: 1.5px;
+}
+
+.start:hover, .nextQuestion:hover{
+    opacity: 100%;
+}
+
+.quiz{
+    width: 85%;
+    height: 60%;
+    margin: auto;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 30px;
+    display: none;
+}
+
+.title{
+    font-size: xx-large;
+    color: rgb(245, 245, 245);
+    width: 100%;
+    margin: auto;
+    padding-bottom: 8%;
+}
+
+.quizPack h2{
+    font-size: x-large;
+    color: whitesmoke;
+}
+
+.btn{
+    display: block;
+    background: gray;
+    color: whitesmoke;
+    font-size: x-large;
+    font-family: "Radjhani";
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+.btn:hover:not[disabled]{
+    transform: scale(1.05);
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+.nextQuestion{
+    opacity: 60%;
+    display: none
+}
+
+.correct{
+    background-color: rgb(5, 252, 5);
+    color: whitesmoke;
+}
+
+.incorrect{
+    background-color: rgb(245, 44, 44);
+    color: whitesmoke;
+}
+
+a{
+    color: whitesmoke;
+    font-family: "Radjhani";
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    margin: auto;
+    margin-top: 40%;
+    text-align: center;
+}
+
+footer p{
+    font-size: x-small;
+}
